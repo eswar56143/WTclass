@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Noto Sans', sans-serif;
+}
+.header {
+    text-align: center;
+	margin-top: 2em;
+}
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+     font-size: 3em;
+     color: #000;
+     display: inline-block;
+     position:relative;
+}
+.logo h1 a{
+    text-decoration:none;
+    color: #000;
+}
+.logo h1 span {
+    font-size: 12px;
+    display: block;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 4px;
+}
+.logo h1  b {
+    font-size: 8px;
+    background: #ED0612;
+    font-weight: normal;
+    padding: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: -2px;
+    color: #fff;
+    line-height: 8px;
+}
+.head-t {
+    margin: 1em 0;
+}
+.card li{
+	display:inline-block;
+}
+.card li a{
+	display:inline-block;
+	color: #999;
+    font-size: 0.9em;
+	margin:0 0.5em;
+}
+.card li a i{
+	margin-right:5px;
+	color:   dodgerblue;
+}
+/*brand*/
+@font-face{
+    font-family: Lobster;
+    src: url(../fonts/Lobster_1.3.otf);
+}
+.brand{
+    color: dodgerblue;
+    font-family: Lobster;
+    font-size: 40px;
+}
+.brand1{
+    color: gray;
+    font-size: 35px;
+    font-weight: bold;
+}
+/* navbar */
+.nav-top ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkgray;
+}
+  
+.nav-top  li{
+    float: left;
+    
+}
+  
+.nav-top  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 7px;
+    
+}
+  
+.nav-top  li a:hover:not(.active) {
+    background-color:#fff;
+    color: #000;
+    
+}
+  
+.nav-top  .active {
+    background-color:  dodgerblue;
+    color: #fff;
+    margin-right: 7px;
+}
