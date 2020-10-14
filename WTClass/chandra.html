@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Searching for...</title>
+	<style type="text/css">
+		html, body{
+			height:100%;
+			background-image: url("images/book.jpg"); 
+    	}
+
+		
+
+		.dropdown{
+			position: relative;
+			top: -100px;
+			margin:  110px;
+ 			padding-top: 100px;
+
+		}
+		.dropdown-toggle{
+				position: relative;
+				display : block;
+				text-align: center;
+				font-size: 30px;
+				border: 1px solid #ff2474;
+				padding:10px 30px;
+				color:#ff2474;
+				background-image: url("images/news2.jpg");
+				border-radius: 50px;
+				text-decoration: none;
+				
+				
+		}
+
+		
+		.dropdown-toggle:before{
+		       content: "";
+		       position: absolute;
+		       width: 0%;
+		       height: 0%;
+		       background-color: #fff;
+		       top: -5%;
+		       left:-5%;
+		       opacity: .3;
+		       transition: .3s;
+
+		       top:50%;
+		       left:50%;
+		       transform: translate(-50%, -50%);
+
+		       border-radius: 50px;
+
+		}
+
+		.dropdown-toggle:hover:before{
+				 width: 110%;
+		       height: 110%;
+		}
+
+		.dropdown-menu{
+				position:absolute; 
+		  		margin-top: 140px;
+ 				
+		  		padding:10px 20px;
+                padding-right: 0px;
+		  		list-style-type: none;
+		  		border:1px solid #ff2474;
+		  		border-bottom: 5px solid #ff2474;
+		  		border-radius: 5px;
+		  		box-shadow:0 5px 10px -5px #444;
+		  		width:80%;
+		  		top:48px;
+
+
+		  		visibility: hidden;
+		  		opacity: 0;
+
+		  		transition: .3s .3s;
+
+		}
+
+		.dropdown:hover>.dropdown-menu{
+			visibility: visible;
+		  		opacity: 1;
+		}
+
+
+		.dropdown-menu>li{
+				padding:10px;
+				color: #343434;
+				border-bottom: 1px solid #e4e4e4;
+				transition: .3s;
+				border-radius: 3px;
+				text-align: center;
+				margin-right:150px;
+
+                
+
+		}
+
+		.dropdown-menu>li:hover{
+			background:#ff2474;
+			color: #fff ;
+		}
+
+		.dropdown-menu:before, .dropdown-menu:after{
+				content: "";
+				position: absolute;
+				border: 10px solid transparent;
+				border-top:0;
+				left:10px;
+				
+		}
+
+		.dropdown-menu:before{
+			top:-8px;
+			border-bottom-color: #fff;
+		}
+
+		.dropdown-menu:after{
+			top:-10px;
+			border-bottom-color: #ff2474;
+			z-index: -1;
+		}
+
+		.dropdown-menu>li:last-child{
+			border-bottom:0;
+		}
+
+		a, .dropdown-menu>li{
+			   font-size: 10px;
+			   font-weight: bold;
+			   font-family: arial;
+
+		}		
+		a{
+			text-decoration: none;
+		    color:white;
+			size:20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+		<a href="#" class="dropdown-toggle">Books</a>
+        <ul class="dropdown-menu">
+        	<li><a href="os.html">Computer Science Engineering</a></li>
+         	<li><a href="os.html">Electronics And Communication Engineering</a></li>
+         	<li><a href="os.html">Electrical Electronics Engineering</a></li>
+         	<li><a href="os.html">Civil Engineering</a></li>
+         	<li><a href="os.html">Mechanical Engineering</a></li>
+         	<li><a href="os.html">Chemical Engineering</a></li>
+         	<li><a href="os.html">Others</a></li>
+        </ul>
+
+	</div>
+	<br>
+    <br>
+	<div class="dropdown">
+		<a href="#" class="dropdown-toggle">Question Papers</a>
+        <ul class="dropdown-menu">
+         	<li><a href="os.html">Computer Science Engineering</a></li>
+         	<li><a href="os.html">Electronics And Communication Engineering</a></li>
+         	<li><a href="os.html">Electrical Electronics Engineering</a></li>
+         	<li><a href="os.html">Civil Engineering</a></li>
+         	<li><a href="os.html">Mechanical Engineering</a></li>
+         	<li><a href="os.html">Chemical Engineering</a></li>
+         	<li><a href="os.html">Others</a></li>
+        </ul>
+
+	</div>
+	<br>
+    <br>
+	<div class="dropdown">
+		<a href="#" class="dropdown-toggle">Queries</a>
+        <ul class="dropdown-menu">
+         	<li><a href="query.html">Computer Science Engineering</a></li>
+         	<li><a href="query.html">Electronics And Communication Engineering</a></li>
+         	<li><a href="query.html">Electrical Electronics Engineering</a></li>
+         	<li><a href="query.html">Civil Engineering</a></li>
+         	<li><a href="query.html">Mechanical Engineering</a></li>
+         	<li><a href="query.html">Chemical Engineering</a></li>
+         	<li><a href="www.google.com">Others</a></li>
+        </ul>
+
+	</div>
+</body>
+</html>
