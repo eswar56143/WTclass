@@ -378,7 +378,7 @@ body{
 }
 
 /* Change styles for  extra small screens */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
     .login {    width: 80%; margin: 10% 10% 10% 10%;}
     .i {font-size: 0.1em;}
     .ser-t { width: 50%; }
